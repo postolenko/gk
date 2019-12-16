@@ -61,7 +61,23 @@ $(document).ready(function() {
         speed: 600,
         slidesToShow: 3,
         slidesToScroll: 1,
-        appendArrows: $(".news_articles_slider_arrows")
+        appendArrows: $(".news_articles_slider_arrows"),
+        responsive: [
+             {
+               breakpoint: 680,
+               settings: {
+                 slidesToShow: 2,
+                 slidesToScroll: 1
+               }
+             },
+             {
+               breakpoint: 450,
+               settings: {
+                 slidesToShow: 1,
+                 slidesToScroll: 1
+               }
+             }
+           ]
     });
 
     $("#privateForm").validate({
