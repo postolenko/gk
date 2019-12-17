@@ -159,7 +159,7 @@ function getPromoHeight() {
     if( bodyWidth > 768 ) {
 
         $(".promo-content").css({
-            "min-height" : $(window).height() - $(".header").height() + "px"
+            "min-height" : $(window).height() - $(".header").height() - 50 + "px"
         });
 
     } else {
