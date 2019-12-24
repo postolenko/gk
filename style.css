@@ -2784,7 +2784,7 @@ textarea + label.error {
 }
 
 .promo_questions {
-    margin-top: 42px;
+    margin-top: 80px;
     margin-bottom: 30px;
 }
 
@@ -2839,7 +2839,7 @@ p .sb {
 }
 
 .promo_content_2 .green_pill_2 {
-    margin: 22px 0;
+    margin: 50px 0;
 }
 
 /*-- /Section 1 - Main Page 4 --*/
@@ -3499,7 +3499,7 @@ p.date_2 {
     /*-- Section 1 - Main Page 4 --*/
 
     .promo_questions {
-        margin-top: 15px;
+        margin-top: 63px;
         margin-bottom: 33px;
     }
 
@@ -3856,6 +3856,11 @@ p.date_2 {
     .h1_wrapp_2 h1 {
         font-size: 45px;
         line-height: 51px;
+    }
+
+    .h1_wrapp_2 p {
+        max-width: 250px;
+        line-height: 24px !important;
     }
 
     .promo_content_2 .green_pill_2 {
